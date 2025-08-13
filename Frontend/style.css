@@ -1,0 +1,91 @@
+/* Background gradient */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #2e7d32, #81c784);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Main container */
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    margin-bottom: 5px;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+/* Dropdown selector */
+.selector {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.selector select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* Price card */
+.price-card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.2);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.price-card h2 {
+    margin-top: 0;
+}
+
+.price-card p {
+    margin: 8px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
