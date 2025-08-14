@@ -18,7 +18,7 @@ private:
   
         int start = html.find("<marquee");
         int end = html.find("</marquee>", start);
-        std::cout<<(html.substr(start + 10, end - start - 10));
+    
         
         return html.substr(start + 10, end - start - 10);
         
