@@ -1,0 +1,72 @@
+[
+    {
+        "spice: small cardamom": {
+            "auctioneer": "the kerala cardamom processing and marketing company limited",
+            "avg. price (rs./kg)": "2386.88",
+            "date of auction": "14-aug-2025",
+            "max price (rs./kg)": "3102.00",
+            "no.of lots": "293",
+            "qty arrived (kgs)": "81844.9",
+            "qty sold (kgs)": "79172.3"
+        }
+    },
+    {
+        "spice: small cardamom": {
+            "auctioneer": "cardamom planters' association",
+            "avg. price (rs./kg)": "2371.52",
+            "date of auction": "14-aug-2025",
+            "max price (rs./kg)": "2906.00",
+            "no.of lots": "84",
+            "qty arrived (kgs)": "14498.2",
+            "qty sold (kgs)": "14498.2"
+        }
+    },
+    {
+        "spice: large cardamom": {
+            "date": "14-aug-2025",
+            "market": "singtam",
+            "price (rs./kg)": "1375.00",
+            "type": "badadana"
+        }
+    },
+    {
+        "spice: large cardamom": {
+            "date": "14-aug-2025",
+            "market": "singtam",
+            "price (rs./kg)": "1275.00",
+            "type": "chotadana"
+        }
+    },
+    {
+        "spice: large cardamom": {
+            "date": "14-aug-2025",
+            "market": "gangtok",
+            "price (rs./kg)": "1425.00",
+            "type": "badadana"
+        }
+    },
+    {
+        "spice: large cardamom": {
+            "date": "14-aug-2025",
+            "market": "gangtok",
+            "price (rs./kg)": "1300.00",
+            "type": "chotadana"
+        }
+    },
+    {
+        "spice: large cardamom": {
+            "date": "14-aug-2025",
+            "market": "siliguri",
+            "price (rs./kg)": "1862.00",
+            "type": "badadana"
+        }
+    },
+    {
+        "spice: large cardamom": {
+            "date": "14-aug-2025",
+            "market": "siliguri",
+            "price (rs./kg)": "1450.00",
+            "type": "chotadana"
+        }
+    }
+]
