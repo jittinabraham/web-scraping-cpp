@@ -1,14 +1,5 @@
 <h1 align="center">🍃 CI/CD Pipeline for Cardamom Price Scraping 🍃</h1>
 
-<p align="center">
-  <a href="https://github.com/yourusername/ci-cd-cardamom-prices" target="_blank">
-    <img src="https://img.shields.io/github/stars/yourusername/ci-cd-cardamom-prices?style=social" alt="GitHub Stars"/>
-  </a>
-  <a href="https://github.com/yourusername/ci-cd-cardamom-prices" target="_blank">
-    <img src="https://img.shields.io/github/forks/yourusername/ci-cd-cardamom-prices?style=social" alt="GitHub Forks"/>
-  </a>
-</p>
-
 <hr />
 
 <h2 align="center">📖 Project Overview</h2>
