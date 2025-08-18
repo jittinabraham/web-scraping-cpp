@@ -120,9 +120,7 @@ This will scrape the price data from the website and store it in the <code>carda
 
 <hr />
 
-<h2 align="center">📜 License</h2>
 
-<p>This project is licensed under the MIT License – see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
 ---
 
