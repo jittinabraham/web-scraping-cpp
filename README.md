@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.indianspiceprices.gov.in" target="_blank">
+  <a href="https://www.indianspices.com/marketing/price/domestic/daily-price.html" target="_blank">
     Visit the Indian Spice Price Website
   </a>
 </p>
