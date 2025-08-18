@@ -37,7 +37,7 @@ jobs:
         run: |
           ./run
 
-      # Step 5: Commit and push the updated JSON
+      # Step 5: Commit and push the updated JSON.
       - name: Commit and push JSON
         run: |
           git config --global user.name "github-actions[bot]"
