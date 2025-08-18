@@ -30,11 +30,6 @@
     Visit the Indian Spice Price Website
   </a>
 </p>
-
-<p align="center">
-  *(Replace with the actual URL of the website you're scraping.)*
-</p>
-
 <hr />
 
 
