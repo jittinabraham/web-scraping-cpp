@@ -7,39 +7,91 @@ document.getElementById("cardamomType").addEventListener("change", function() {
         return;
     }
 
-    const fileName = type === "small" ? "small_cardamom.json" : "large_cardamom.json";
-
-    fetch(fileName + "?t=" + new Date().getTime()) // avoid caching
+    fetch("../cardamom_data.json?t=" + new Date().getTime())
         .then(res => res.json())
         .then(data => {
-            if (!Array.isArray(data) || data.length === 0) {
-                display.innerHTML = "<p>⚠ No data available in JSON.</p>";
+            let key = type === "small" ? "spice: small cardamom" : "spice: large cardamom";
+
+            // Filter only relevant data
+            const entries = data.filter(item => item[key]);
+
+            if (!entries.length) {
+                display.innerHTML = "<p>⚠ No data available for " + key + ".</p>";
                 return;
             }
 
-            const latest = data[data.length - 1]; // latest entry
-            let html = `<h2>${latest.Spice}</h2>`;
+            // Build only children slides
+            let slides = entries.map((entry, i) => {
+                const latest = entry[key];
+                let html = `<div class="child-slide ${i === 0 ? 'active' : ''}">`;
 
-            if (type === "small") {
-                html += `
-                    <p><i class="fas fa-calendar-day"></i> <strong>Date of Auction:</strong> ${latest["Date of Auction"]}</p>
-                    <p><i class="fas fa-building"></i> <strong>Auctioneer:</strong> ${latest["Auctioneer"]}</p>
-                    <p><i class="fas fa-boxes"></i> <strong>No. of Lots:</strong> ${latest["No.of lots"]}</p>
-                    <p><i class="fas fa-truck-loading"></i> <strong>Qty Arrived:</strong> ${latest["Qty Arrived (Kgs)"]} kg</p>
-                    <p><i class="fas fa-shopping-basket"></i> <strong>Qty Sold:</strong> ${latest["Qty Sold (Kgs)"]} kg</p>
-                    <p><i class="fas fa-arrow-up"></i> <strong>Max Price (Rs./Kg):</strong> ₹${latest["Max Price (Rs./Kg)"]}</p>
-                    <p><i class="fas fa-balance-scale"></i> <strong>Avg Price (Rs./Kg):</strong> ₹${latest["Avg. Price (Rs./Kg)"]}</p>
-                `;
-            } else {
-                html += `
-                    <p><i class="fas fa-calendar-day"></i> <strong>Date:</strong> ${latest.Date}</p>
-                    <p><i class="fas fa-map-marker-alt"></i> <strong>Market:</strong> ${latest.Market}</p>
-                    <p><i class="fas fa-leaf"></i> <strong>Type:</strong> ${latest.Type}</p>
-                    <p><i class="fas fa-rupee-sign"></i> <strong>Price (Rs./Kg):</strong> ₹${latest["Price (Rs./Kg)"]}</p>
-                `;
+                if (type === "small") {
+                    html += `
+                        <p><strong>Date of Auction:</strong> ${latest["date of auction"]}</p>
+                        <p><strong>Auctioneer:</strong> ${latest["auctioneer"]}</p>
+                        <p><strong>No. of Lots:</strong> ${latest["no.of lots"]}</p>
+                        <p><strong>Qty Arrived:</strong> ${latest["qty arrived (kgs)"]} kg</p>
+                        <p><strong>Qty Sold:</strong> ${latest["qty sold (kgs)"]} kg</p>
+                        <p><strong>Max Price (Rs./Kg):</strong> ₹${latest["max price (rs./kg)"]}</p>
+                        <p><strong>Avg Price (Rs./Kg):</strong> ₹${latest["avg. price (rs./kg)"]}</p>
+                    `;
+                } else {
+                    html += `
+                        <p><strong>Date:</strong> ${latest.date}</p>
+                        <p><strong>Market:</strong> ${latest.market}</p>
+                        <p><strong>Type:</strong> ${latest.type}</p>
+                        <p><strong>Price (Rs./Kg):</strong> ₹${latest["price (rs./kg)"]}</p>
+                    `;
+                }
+
+                html += `</div>`;
+                return html;
+            }).join("");
+
+            // Build dots
+            let dots = entries.map((_, i) => 
+                `<span class="dot ${i === 0 ? 'active' : ''}" data-index="${i}"></span>`
+            ).join("");
+
+            // Main structure
+            display.innerHTML = `
+                <div class="cardamom-wrapper">
+                    <h2>${key}</h2>
+                    <div class="carousel">
+                        ${slides}
+                        <button class="prev">⬅</button>
+                        <button class="next">➡</button>
+                    </div>
+                    <div class="dots">${dots}</div>
+                </div>
+            `;
+
+            // JS logic for carousel
+            const slidesEls = display.querySelectorAll(".child-slide");
+            const dotsEls = display.querySelectorAll(".dot");
+            let current = 0;
+
+            function showSlide(index) {
+                slidesEls.forEach((slide, i) => slide.classList.toggle("active", i === index));
+                dotsEls.forEach((dot, i) => dot.classList.toggle("active", i === index));
+                current = index;
             }
 
-            display.innerHTML = html;
+            display.querySelector(".prev").addEventListener("click", () => {
+                let newIndex = (current - 1 + slidesEls.length) % slidesEls.length;
+                showSlide(newIndex);
+            });
+
+            display.querySelector(".next").addEventListener("click", () => {
+                let newIndex = (current + 1) % slidesEls.length;
+                showSlide(newIndex);
+            });
+
+            dotsEls.forEach(dot => {
+                dot.addEventListener("click", () => {
+                    showSlide(parseInt(dot.dataset.index));
+                });
+            });
         })
         .catch(err => {
             console.error("Error fetching JSON:", err);

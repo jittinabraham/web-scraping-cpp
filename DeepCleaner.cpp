@@ -74,7 +74,7 @@ void CardomomCleaner::ToJson() {
     }
   
   data = result; // Store the JSON data in the class member
-  writeToJson(data, "cardomom_data.json"); // Write to file
+  writeToJson(data, "cardamom_data.json"); // Write to file
   
   return void();
 }

@@ -56,7 +56,7 @@ h1 {
     padding: 20px;
     border-radius: 15px;
     backdrop-filter: blur(10px);
-    color: white;
+    color: rgb(255, 255, 255);
     box-shadow: 0 4px 25px rgba(0,0,0,0.2);
     animation: fadeIn 0.5s ease-in-out;
 }
@@ -89,3 +89,62 @@ footer {
         padding: 10px;
     }
 }
+.cardamom-wrapper {
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.carousel {
+  position: relative;
+  padding: 20px;
+  border-radius: 12px;
+  background: #138803;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+  min-height: 180px;
+}
+
+.child-slide {
+  display: none;
+  animation: fade 0.5s ease-in-out;
+}
+
+.child-slide.active {
+  display: block;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #08a15a;
+  color: rgb(3, 131, 60);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.carousel .prev { left: 10px; }
+.carousel .next { right: 10px; }
+
+.dots {
+  margin-top: 12px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background: #02923e;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dot.active {
+  background: #dee3e9;
+}
+
