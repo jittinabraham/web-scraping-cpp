@@ -1,66 +1,58 @@
-CI/CD Pipeline for Cardamom Price Scraping
-Overview
+🍃 CI/CD Pipeline for Cardamom Price Scraping 🍃
+📖 Project Overview
 
-Welcome to the Cardamom Price Scraper project! This is a basic implementation of CI/CD pipelines using GitHub Actions, built to automatically scrape the daily cardamom price data from an Indian Spice website, process it, and store the information as a JSON file. The project uses C++ to fetch and process the data, and a simple web front-end to display the data in a user-friendly format.
+Welcome to the Cardamom Price Scraper project! This repository demonstrates the use of CI/CD pipelines on GitHub Actions to automate the process of scraping daily cardamom price data from an Indian government-backed spice website. The data is saved as a JSON file, which is then displayed in a simple web front-end.
 
-Every day at 10:00 AM UTC, the GitHub Actions CI/CD pipeline is triggered to:
+🌟 Key Features:
 
-Build the project.
+Automated Data Scraping: Scrapes cardamom prices daily from a government-backed Indian spice website.
 
-Run the scraping program.
+CI/CD Pipeline: The build and scraping process is automated using GitHub Actions, triggered every day at 10:00 AM UTC.
 
-Update the price data in a JSON file.
+JSON Data Storage: Scraped data is stored in a JSON file, which is pushed to the repository.
 
-The front-end displays the scraped data in a pretty-printed format, providing an easy way to view the latest cardamom prices.
+Web Front-End: Displays the scraped data in a pretty-printed format for easy viewing.
 
-Key Features
+🔗 Cardamom Price Source
 
-Automated Data Scraping: Scrapes cardamom prices from an Indian government-backed spice website, which updates daily.
+The cardamom price data is fetched from a government-verified Indian Spice website, which is updated daily with new market prices.
 
-CI/CD Pipeline: GitHub Actions automates the entire process, running the build and scraping operations daily at 10:00 AM UTC.
-
-JSON Data Storage: The scraped price data is stored in a JSON file, which is then pushed to the repository.
-
-Web Front-End: Displays the JSON data in a clean, readable format for users to easily view the latest prices.
-
-Cardamom Price Source
-
-The price information is scraped from an Indian Spice website that provides updated market prices for various spices, including cardamom. The website is updated regularly by the government, ensuring the price data is accurate and current.
-
-You can visit the website at Indian Spice Price (Note: Replace with the actual URL of the website you're scraping).
+You can view the website at:
+Indian Spice Price Website
 
 
-Getting Started
-Prerequisites
+🛠️ Getting Started
 
-Before you start, make sure you have the following installed:
+To get this project up and running locally, follow these steps:
 
-GitHub account and access to the repository.
+🔧 Prerequisites
+
+GitHub account and repository access.
 
 C++ development tools:
 
-g++, libcurl, and nlohmann-json3-dev dependencies for building and running the C++ program.
+g++, libcurl, and nlohmann-json3-dev libraries.
 
-Installation
+📥 Installation
 
 Clone the repository:
 
 git clone https://github.com/yourusername/ci-cd-cardamom-prices.git
 
 
-Navigate into the project folder:
+Navigate to the project folder:
 
 cd ci-cd-cardamom-prices
 
 
-Install necessary dependencies (for Ubuntu):
+Install necessary dependencies (For Ubuntu):
 
 sudo apt-get update
 sudo apt-get install -y g++ libcurl4-openssl-dev nlohmann-json3-dev
 
-Running the Program Locally
+🚀 Running the Program Locally
 
-To run the program locally and scrape the cardamom price data:
+If you want to test the scraping process and run the program locally, follow these steps:
 
 Build the C++ project:
 
@@ -72,38 +64,31 @@ Run the program:
 ./run
 
 
-This will scrape the price data and save it in the cardamom_data.json file.
+This will scrape the price data from the website and store it in the cardamom_data.json file.
 
-Viewing the Data
+🌍 Viewing the Data
 
-Open the frontend/index.html file in your browser.
+To view the scraped data in a browser:
 
-The webpage will display the contents of cardamom_data.json in a user-friendly, pretty-printed format.
+Open the frontend/index.html file.
 
-CI/CD Pipeline
+The page will display the contents of the cardamom_data.json file in a clean, pretty-printed format.
 
-This project leverages GitHub Actions to automate the build, scraping, and updating process. The pipeline is configured to:
+🛠️ CI/CD Pipeline
+📅 Daily Automated Build & Scraping
+
+This project uses GitHub Actions to automate the build and data scraping process. Every day at 10:00 AM UTC, the pipeline is triggered to:
 
 Build the C++ project.
 
-Run the scraping program at 10:00 AM UTC daily.
+Run the program to scrape the cardamom price data.
 
-Commit and push the updated cardamom_data.json file back to the repository.
+Commit and Push the updated cardamom_data.json file to the repository.
 
-GitHub Actions Workflow
+The CI/CD pipeline configuration is located in .github/workflows/pipeline.yml.
 
-The pipeline configuration is located in .github/workflows/pipeline.yml, and it runs as follows:
-
-Scheduled Execution: The pipeline is triggered every day at 10:00 AM UTC using a cron job.
-
-Build and Run: The C++ project is compiled, and the program is executed to scrape the price data.
-
-Commit and Push: After scraping, the updated cardamom_data.json is committed and pushed to the repository.
-
-You can monitor the status of the CI/CD pipeline from the Actions tab of the GitHub repository.
-
-Front-End Display
+💻 Front-End Display
 
 The frontend/ folder contains a simple HTML page (index.html) that uses JavaScript to fetch and display the cardamom price data from the cardamom_data.json file.
 
-The data is displayed in a pretty-printed format for easy reading.
+The data is shown in a pretty-printed format to make it easy for users to read and interpret.
