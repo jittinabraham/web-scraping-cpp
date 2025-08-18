@@ -1,26 +1,45 @@
-name: C++ CI
+name: Build and Update JSON
 
 on:
   push:
-  pull_request:
+    branches:
+      - main
+  schedule:
+    # Runs every day at 10:00 UTC
+    - cron: '0 10 * * *'
 
 jobs:
-  build:
+  build-and-run:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout the repository
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
+      # Step 2: Install dependencies
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y g++ curl libcurl4-openssl-dev nlohmann-json3-dev
+          sudo apt-get install -y g++ libcurl4-openssl-dev nlohmann-json3-dev
 
-      - name: Build project
+      # Step 3: Build the project
+      - name: Build C++ project
         run: |
-          g++ -std=c++17 -Wall -Wextra main.cpp HtmlResponds.cpp DeepCleaner.cpp -o run -lcurl
+          g++ main.cpp HtmlResponds.cpp DeepCleaner.cpp -o run -lcurl
 
-      - name: Run binary
-        run: ./run
+      # Step 4: Execute the program to generate JSON
+      - name: Run program to generate JSON
+        run: |
+          ./run
 
+      # Step 5: Commit and push the updated JSON
+      - name: Commit and push JSON
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add cardamom.json
+          git commit -m "Update cardamom.json [skip ci]" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
