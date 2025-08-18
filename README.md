@@ -4,9 +4,6 @@
 
 <h2 align="center">📖 Project Overview</h2>
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x400/2d2d2d/ffffff?text=Cardamom+Price+Scraper" alt="Project Image"/>
-</p>
 
 <p align="center">
   Welcome to the <strong>Cardamom Price Scraper</strong> project! This repository demonstrates the use of <strong>CI/CD pipelines</strong> on <strong>GitHub Actions</strong> to automate the process of scraping <strong>daily cardamom price data</strong> from an <em>Indian government-backed spice website</em>. The data is saved as a <strong>JSON file</strong>, which is then displayed in a simple <strong>web front-end</strong>.
