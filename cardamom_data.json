@@ -11,6 +11,17 @@
         }
     },
     {
+        "spice: small cardamom": {
+            "auctioneer": "header systems (india) limited",
+            "avg. price (rs./kg)": "2553.71",
+            "date of auction": "12-sep-2025",
+            "max price (rs./kg)": "2838.00",
+            "no.of lots": "310",
+            "qty arrived (kgs)": "84698.2",
+            "qty sold (kgs)": "82948.4"
+        }
+    },
+    {
         "spice: large cardamom": {
             "date": "28-aug-2025",
             "market": "gangtok",
