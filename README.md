@@ -52,10 +52,10 @@
 
 <pre>
 1. Clone the repository:
-   <code>git clone https://github.com/yourusername/ci-cd-cardamom-prices.git</code>
+   <code>git clone git@github.com:jittinabraham/web-scraping-cpp.git
 
 2. Navigate to the project folder:
-   <code>cd ci-cd-cardamom-prices</code>
+  <code> cd web-scraping-cpp
 
 3. Install necessary dependencies (For Ubuntu):
    <code>sudo apt-get update && sudo apt-get install -y g++ libcurl4-openssl-dev nlohmann-json3-dev</code>
