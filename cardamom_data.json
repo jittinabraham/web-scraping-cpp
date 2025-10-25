@@ -11,6 +11,17 @@
         }
     },
     {
+        "spice: small cardamom": {
+            "auctioneer": "green house cardamom mktg.india pvt. ltd",
+            "avg. price (rs./kg)": "2467.17",
+            "date of auction": "24-oct-2025",
+            "max price (rs./kg)": "2698.00",
+            "no.of lots": "338",
+            "qty arrived (kgs)": "101614.3",
+            "qty sold (kgs)": "100033.1"
+        }
+    },
+    {
         "spice: large cardamom": {
             "date": "16-oct-2025",
             "market": "gangtok",
