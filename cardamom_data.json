@@ -1,60 +1,60 @@
 [
     {
         "spice: small cardamom": {
-            "auctioneer": "sugandhagiri spices promoters&traders pvt ltd",
-            "avg. price (rs./kg)": "2469.34",
-            "date of auction": "30-oct-2025",
-            "max price (rs./kg)": "3069.00",
-            "no.of lots": "359",
-            "qty arrived (kgs)": "108409.5",
-            "qty sold (kgs)": "105872.9"
+            "auctioneer": "climate natural spices private limited",
+            "avg. price (rs./kg)": "2512.00",
+            "date of auction": "31-oct-2025",
+            "max price (rs./kg)": "2820.00",
+            "no.of lots": "223",
+            "qty arrived (kgs)": "47366.2",
+            "qty sold (kgs)": "46427.5"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "16-oct-2025",
-            "market": "gangtok",
-            "price (rs./kg)": "1400.00",
+            "date": "30-oct-2025",
+            "market": "singtam",
+            "price (rs./kg)": "1500.00",
             "type": "badadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "16-oct-2025",
-            "market": "gangtok",
-            "price (rs./kg)": "1250.00",
+            "date": "30-oct-2025",
+            "market": "singtam",
+            "price (rs./kg)": "1400.00",
             "type": "chotadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "16-oct-2025",
-            "market": "singtam",
+            "date": "30-oct-2025",
+            "market": "gangtok",
             "price (rs./kg)": "1450.00",
             "type": "badadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "16-oct-2025",
-            "market": "singtam",
+            "date": "30-oct-2025",
+            "market": "gangtok",
             "price (rs./kg)": "1300.00",
             "type": "chotadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "16-oct-2025",
+            "date": "30-oct-2025",
             "market": "siliguri",
-            "price (rs./kg)": "1887.00",
+            "price (rs./kg)": "1987.00",
             "type": "badadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "16-oct-2025",
+            "date": "30-oct-2025",
             "market": "siliguri",
-            "price (rs./kg)": "1537.00",
+            "price (rs./kg)": "1500.00",
             "type": "chotadana"
         }
     }
