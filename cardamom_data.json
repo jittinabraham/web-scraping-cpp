@@ -11,6 +11,17 @@
         }
     },
     {
+        "spice: small cardamom": {
+            "auctioneer": "cardamom planters' association",
+            "avg. price (rs./kg)": "2385.26",
+            "date of auction": "20-dec-2025",
+            "max price (rs./kg)": "2787.00",
+            "no.of lots": "137",
+            "qty arrived (kgs)": "31511.1",
+            "qty sold (kgs)": "30914.8"
+        }
+    },
+    {
         "spice: large cardamom": {
             "date": "18-dec-2025",
             "market": "singtam",
