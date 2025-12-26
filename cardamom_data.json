@@ -1,71 +1,60 @@
 [
     {
         "spice: small cardamom": {
-            "auctioneer": "south indian green cardamom company ltd",
-            "avg. price (rs./kg)": "2414.66",
-            "date of auction": "24-dec-2025",
-            "max price (rs./kg)": "2805.00",
-            "no.of lots": "305",
-            "qty arrived (kgs)": "96539.3",
-            "qty sold (kgs)": "76933.9"
-        }
-    },
-    {
-        "spice: small cardamom": {
-            "auctioneer": "cardamom growersforever private limited",
-            "avg. price (rs./kg)": "2399.81",
-            "date of auction": "24-dec-2025",
-            "max price (rs./kg)": "2856.00",
-            "no.of lots": "195",
-            "qty arrived (kgs)": "31383.6",
-            "qty sold (kgs)": "30501.6"
+            "auctioneer": "idukki mahila cardamom producer company limited",
+            "avg. price (rs./kg)": "2429.13",
+            "date of auction": "26-dec-2025",
+            "max price (rs./kg)": "3192.00",
+            "no.of lots": "277",
+            "qty arrived (kgs)": "75821.8",
+            "qty sold (kgs)": "72877"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "18-dec-2025",
+            "date": "26-dec-2025",
             "market": "singtam",
-            "price (rs./kg)": "1700.00",
+            "price (rs./kg)": "1637.50",
             "type": "badadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "18-dec-2025",
+            "date": "26-dec-2025",
             "market": "singtam",
-            "price (rs./kg)": "1500.00",
-            "type": "chotadana"
-        }
-    },
-    {
-        "spice: large cardamom": {
-            "date": "18-dec-2025",
-            "market": "gangtok",
-            "price (rs./kg)": "1625.00",
-            "type": "badadana"
-        }
-    },
-    {
-        "spice: large cardamom": {
-            "date": "18-dec-2025",
-            "market": "gangtok",
             "price (rs./kg)": "1475.00",
             "type": "chotadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "18-dec-2025",
-            "market": "siliguri",
-            "price (rs./kg)": "1800.00",
+            "date": "26-dec-2025",
+            "market": "gangtok",
+            "price (rs./kg)": "1650.00",
             "type": "badadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "18-dec-2025",
+            "date": "26-dec-2025",
+            "market": "gangtok",
+            "price (rs./kg)": "1450.00",
+            "type": "chotadana"
+        }
+    },
+    {
+        "spice: large cardamom": {
+            "date": "26-dec-2025",
             "market": "siliguri",
-            "price (rs./kg)": "1595.00",
+            "price (rs./kg)": "1942.50",
+            "type": "badadana"
+        }
+    },
+    {
+        "spice: large cardamom": {
+            "date": "26-dec-2025",
+            "market": "siliguri",
+            "price (rs./kg)": "1600.00",
             "type": "chotadana"
         }
     }
