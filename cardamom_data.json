@@ -11,6 +11,17 @@
         }
     },
     {
+        "spice: small cardamom": {
+            "auctioneer": "sugandhagiri spices promoters&traders pvt ltd",
+            "avg. price (rs./kg)": "2427.64",
+            "date of auction": "26-dec-2025",
+            "max price (rs./kg)": "3218.00",
+            "no.of lots": "347",
+            "qty arrived (kgs)": "97563.6",
+            "qty sold (kgs)": "96527.8"
+        }
+    },
+    {
         "spice: large cardamom": {
             "date": "26-dec-2025",
             "market": "singtam",
