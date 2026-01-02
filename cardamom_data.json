@@ -11,6 +11,17 @@
         }
     },
     {
+        "spice: small cardamom": {
+            "auctioneer": "south indian green cardamom company ltd",
+            "avg. price (rs./kg)": "2472.83",
+            "date of auction": "01-jan-2026",
+            "max price (rs./kg)": "2978.00",
+            "no.of lots": "222",
+            "qty arrived (kgs)": "57530.6",
+            "qty sold (kgs)": "56811.8"
+        }
+    },
+    {
         "spice: large cardamom": {
             "date": "01-jan-2026",
             "market": "singtam",
