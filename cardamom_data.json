@@ -11,6 +11,17 @@
         }
     },
     {
+        "spice: small cardamom": {
+            "auctioneer": "climate natural spices private limited",
+            "avg. price (rs./kg)": "2489.24",
+            "date of auction": "17-jan-2026",
+            "max price (rs./kg)": "2980.00",
+            "no.of lots": "141",
+            "qty arrived (kgs)": "30873.9",
+            "qty sold (kgs)": "29097.6"
+        }
+    },
+    {
         "spice: large cardamom": {
             "date": "15-jan-2026",
             "market": "singtam",
