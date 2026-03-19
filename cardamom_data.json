@@ -11,6 +11,17 @@
         }
     },
     {
+        "spice: small cardamom": {
+            "auctioneer": "mas enterprises",
+            "avg. price (rs./kg)": "2207.83",
+            "date of auction": "18-mar-2026",
+            "max price (rs./kg)": "3138.00",
+            "no.of lots": "246",
+            "qty arrived (kgs)": "70594.00",
+            "qty sold (kgs)": "70458.3"
+        }
+    },
+    {
         "spice: large cardamom": {
             "date": "12-mar-2026",
             "market": "singtam",
