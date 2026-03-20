@@ -1,53 +1,42 @@
 [
     {
         "spice: small cardamom": {
-            "auctioneer": "header systems (india) limited",
-            "avg. price (rs./kg)": "2157.30",
-            "date of auction": "18-mar-2026",
-            "max price (rs./kg)": "2572.00",
-            "no.of lots": "230",
-            "qty arrived (kgs)": "59265.8",
-            "qty sold (kgs)": "57910.4"
-        }
-    },
-    {
-        "spice: small cardamom": {
-            "auctioneer": "mas enterprises",
-            "avg. price (rs./kg)": "2207.83",
-            "date of auction": "18-mar-2026",
-            "max price (rs./kg)": "3138.00",
-            "no.of lots": "246",
-            "qty arrived (kgs)": "70594.00",
-            "qty sold (kgs)": "70458.3"
+            "auctioneer": "green house cardamom mktg.india pvt. ltd",
+            "avg. price (rs./kg)": "2185.43",
+            "date of auction": "20-mar-2026",
+            "max price (rs./kg)": "2890.00",
+            "no.of lots": "248",
+            "qty arrived (kgs)": "54357.6",
+            "qty sold (kgs)": "53194.2"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "12-mar-2026",
+            "date": "19-mar-2026",
             "market": "singtam",
-            "price (rs./kg)": "1650.00",
+            "price (rs./kg)": "1625.00",
             "type": "badadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "12-mar-2026",
+            "date": "19-mar-2026",
             "market": "singtam",
-            "price (rs./kg)": "1450.00",
+            "price (rs./kg)": "1400.00",
             "type": "chotadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "12-mar-2026",
+            "date": "19-mar-2026",
             "market": "gangtok",
-            "price (rs./kg)": "1550.00",
+            "price (rs./kg)": "1600.00",
             "type": "badadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "12-mar-2026",
+            "date": "19-mar-2026",
             "market": "gangtok",
             "price (rs./kg)": "1400.00",
             "type": "chotadana"
@@ -55,17 +44,17 @@
     },
     {
         "spice: large cardamom": {
-            "date": "12-mar-2026",
+            "date": "19-mar-2026",
             "market": "siliguri",
-            "price (rs./kg)": "1675.00",
+            "price (rs./kg)": "1650.00",
             "type": "badadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "12-mar-2026",
+            "date": "19-mar-2026",
             "market": "siliguri",
-            "price (rs./kg)": "1500.00",
+            "price (rs./kg)": "1480.00",
             "type": "chotadana"
         }
     }
