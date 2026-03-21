@@ -11,6 +11,17 @@
         }
     },
     {
+        "spice: small cardamom": {
+            "auctioneer": "the kerala cardamom processing and marketing company limited",
+            "avg. price (rs./kg)": "2268.65",
+            "date of auction": "20-mar-2026",
+            "max price (rs./kg)": "2778.00",
+            "no.of lots": "244",
+            "qty arrived (kgs)": "70310.6",
+            "qty sold (kgs)": "69550.3"
+        }
+    },
+    {
         "spice: large cardamom": {
             "date": "19-mar-2026",
             "market": "singtam",
