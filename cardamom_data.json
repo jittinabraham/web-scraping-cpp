@@ -1,24 +1,13 @@
 [
     {
         "spice: small cardamom": {
-            "auctioneer": "rns spices",
-            "avg. price (rs./kg)": "2580.63",
-            "date of auction": "13-apr-2026",
-            "max price (rs./kg)": "3501.00",
-            "no.of lots": "396",
-            "qty arrived (kgs)": "114061.1",
-            "qty sold (kgs)": "97689.9"
-        }
-    },
-    {
-        "spice: small cardamom": {
-            "auctioneer": "idukki mahila cardamom producer company limited",
-            "avg. price (rs./kg)": "2635.71",
-            "date of auction": "13-apr-2026",
-            "max price (rs./kg)": "3372.00",
-            "no.of lots": "280",
-            "qty arrived (kgs)": "69934.3",
-            "qty sold (kgs)": "65177.9"
+            "auctioneer": "cardamom growersforever private limited",
+            "avg. price (rs./kg)": "2494.27",
+            "date of auction": "15-apr-2026",
+            "max price (rs./kg)": "3206.00",
+            "no.of lots": "173",
+            "qty arrived (kgs)": "25202",
+            "qty sold (kgs)": "23837.9"
         }
     },
     {
