@@ -11,6 +11,17 @@
         }
     },
     {
+        "spice: small cardamom": {
+            "auctioneer": "idukki dist.traditional cardamom producer company ltd",
+            "avg. price (rs./kg)": "2741.35",
+            "date of auction": "17-apr-2026",
+            "max price (rs./kg)": "3400.00",
+            "no.of lots": "252",
+            "qty arrived (kgs)": "64002.2",
+            "qty sold (kgs)": "63433.1"
+        }
+    },
+    {
         "spice: large cardamom": {
             "date": "16-apr-2026",
             "market": "singtam",
