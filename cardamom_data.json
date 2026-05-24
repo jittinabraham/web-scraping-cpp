@@ -11,6 +11,17 @@
         }
     },
     {
+        "spice: small cardamom": {
+            "auctioneer": "idukki mahila cardamom producer company limited",
+            "avg. price (rs./kg)": "2505.39",
+            "date of auction": "23-may-2026",
+            "max price (rs./kg)": "3378.00",
+            "no.of lots": "166",
+            "qty arrived (kgs)": "37879",
+            "qty sold (kgs)": "37246.8"
+        }
+    },
+    {
         "spice: large cardamom": {
             "date": "21-may-2026",
             "market": "singtam",
