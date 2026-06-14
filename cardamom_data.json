@@ -11,6 +11,17 @@
         }
     },
     {
+        "spice: small cardamom": {
+            "auctioneer": "speciality indian food parks exports private limited",
+            "avg. price (rs./kg)": "2678.60",
+            "date of auction": "13-jun-2026",
+            "max price (rs./kg)": "3489.00",
+            "no.of lots": "224",
+            "qty arrived (kgs)": "61324.7",
+            "qty sold (kgs)": "61324.7"
+        }
+    },
+    {
         "spice: large cardamom": {
             "date": "11-jun-2026",
             "market": "singtam",
