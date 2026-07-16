@@ -11,24 +11,35 @@
         }
     },
     {
+        "spice: small cardamom": {
+            "auctioneer": "the cardamom planters marketing co-operative society limited",
+            "avg. price (rs./kg)": "2903.86",
+            "date of auction": "15-jul-2026",
+            "max price (rs./kg)": "3665.00",
+            "no.of lots": "176",
+            "qty arrived (kgs)": "46474.7",
+            "qty sold (kgs)": "45158.5"
+        }
+    },
+    {
         "spice: large cardamom": {
-            "date": "09-jul-2026",
+            "date": "16-jul-2026",
             "market": "singtam",
-            "price (rs./kg)": "1350.00",
+            "price (rs./kg)": "1450.00",
             "type": "badadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "09-jul-2026",
+            "date": "16-jul-2026",
             "market": "singtam",
-            "price (rs./kg)": "1250.00",
+            "price (rs./kg)": "1350.00",
             "type": "chotadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "09-jul-2026",
+            "date": "16-jul-2026",
             "market": "gangtok",
             "price (rs./kg)": "1500.00",
             "type": "badadana"
@@ -36,7 +47,7 @@
     },
     {
         "spice: large cardamom": {
-            "date": "09-jul-2026",
+            "date": "16-jul-2026",
             "market": "gangtok",
             "price (rs./kg)": "1350.00",
             "type": "chotadana"
@@ -44,17 +55,17 @@
     },
     {
         "spice: large cardamom": {
-            "date": "09-jul-2026",
+            "date": "16-jul-2026",
             "market": "siliguri",
-            "price (rs./kg)": "1867.00",
+            "price (rs./kg)": "1762.00",
             "type": "badadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "09-jul-2026",
+            "date": "16-jul-2026",
             "market": "siliguri",
-            "price (rs./kg)": "1613.00",
+            "price (rs./kg)": "1486.00",
             "type": "chotadana"
         }
     }
