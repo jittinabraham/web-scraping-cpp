@@ -11,24 +11,35 @@
         }
     },
     {
+        "spice: small cardamom": {
+            "auctioneer": "climate natural spices private limited",
+            "avg. price (rs./kg)": "3038.94",
+            "date of auction": "12-aug-2026",
+            "max price (rs./kg)": "4131.00",
+            "no.of lots": "133",
+            "qty arrived (kgs)": "23828.2",
+            "qty sold (kgs)": "21726.3"
+        }
+    },
+    {
         "spice: large cardamom": {
-            "date": "06-aug-2026",
+            "date": "13-aug-2026",
             "market": "singtam",
-            "price (rs./kg)": "1450.00",
+            "price (rs./kg)": "1500.00",
             "type": "badadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "06-aug-2026",
+            "date": "13-aug-2026",
             "market": "singtam",
-            "price (rs./kg)": "1375.00",
+            "price (rs./kg)": "1350.00",
             "type": "chotadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "06-aug-2026",
+            "date": "13-aug-2026",
             "market": "gangtok",
             "price (rs./kg)": "1450.00",
             "type": "badadana"
@@ -36,7 +47,7 @@
     },
     {
         "spice: large cardamom": {
-            "date": "06-aug-2026",
+            "date": "13-aug-2026",
             "market": "gangtok",
             "price (rs./kg)": "1300.00",
             "type": "chotadana"
@@ -44,17 +55,17 @@
     },
     {
         "spice: large cardamom": {
-            "date": "06-aug-2026",
+            "date": "13-aug-2026",
             "market": "siliguri",
-            "price (rs./kg)": "1800.00",
+            "price (rs./kg)": "1675.00",
             "type": "badadana"
         }
     },
     {
         "spice: large cardamom": {
-            "date": "06-aug-2026",
+            "date": "13-aug-2026",
             "market": "siliguri",
-            "price (rs./kg)": "1550.00",
+            "price (rs./kg)": "1525.00",
             "type": "chotadana"
         }
     }
