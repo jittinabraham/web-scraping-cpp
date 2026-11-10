@@ -1,13 +1,24 @@
 [
     {
         "spice: small cardamom": {
-            "auctioneer": "sugandhagiri spices promoters&traders pvt ltd",
-            "avg. price (rs./kg)": "3210.73",
-            "date of auction": "09-nov-2026",
-            "max price (rs./kg)": "4003.00",
-            "no.of lots": "241",
-            "qty arrived (kgs)": "79824.6",
-            "qty sold (kgs)": "79526.1"
+            "auctioneer": "climate natural spices private limited",
+            "avg. price (rs./kg)": "3156.74",
+            "date of auction": "10-nov-2026",
+            "max price (rs./kg)": "3764.00",
+            "no.of lots": "173",
+            "qty arrived (kgs)": "36219.8",
+            "qty sold (kgs)": "35937.4"
+        }
+    },
+    {
+        "spice: small cardamom": {
+            "auctioneer": "the cardamom planters marketing co-operative society limited",
+            "avg. price (rs./kg)": "3133.09",
+            "date of auction": "10-nov-2026",
+            "max price (rs./kg)": "3703.00",
+            "no.of lots": "245",
+            "qty arrived (kgs)": "85899.5",
+            "qty sold (kgs)": "82929.9"
         }
     },
     {
